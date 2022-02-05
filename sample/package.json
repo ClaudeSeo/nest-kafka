@@ -1,0 +1,31 @@
+{
+  "name": "nest-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nest start",
+    "lint": "gts lint",
+    "lint:fix": "gtx fix",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "prepare": "npm run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nestjs/cli": "^8.2.0",
+    "@types/node": "^14.18.10",
+    "gts": "^3.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.2.6",
+    "@nestjs/core": "^8.2.6",
+    "@nestjs/microservices": "^8.2.6",
+    "kafkajs": "^1.15.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.2"
+  }
+}
