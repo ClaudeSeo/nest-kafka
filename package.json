@@ -1,9 +1,26 @@
 {
-  "name": "nest-kafka",
-  "version": "0.0.0",
+  "name": "@claudeseo/nest-kafka",
+  "version": "0.0.1",
   "description": "simple integrate kafka.js with nest.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ],
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
   "scripts": {
     "lint": "gts lint",
     "lint:fix": "gtx fix",
@@ -19,7 +36,7 @@
     "nestjs",
     "kafkajs"
   ],
-  "author": "ClaudeSeo",
+  "author": "ClaudeSeo <ehdaudtj@gmail.com>",
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/ClaudeSeo/nest-kafka/issues"

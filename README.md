@@ -2,6 +2,14 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
+# nest-kafka
+
+![](https://img.shields.io/github/package-json/v/claudeseo/nest-kafka)
+[![npm-version](https://img.shields.io/npm/v/@claudeseo/nest-kafka.svg)](https://www.npmjs.com/package/@claudeseo/nest-kafka)
+[![Build Status](https://github.com/ClaudeSeo/nest-kafka/actions/workflows/release.yml/badge.svg)](https://github.com/ClaudeSeo/nest-kafka/actions/workflows/release.yml)
+[![Release date](https://img.shields.io/github/release-date/claudeseo/nest-kafka)](https://github.com/claudeseo/nest-kafka/releases)
+[![npm license](https://img.shields.io/npm/l/@claudeseo/nest-kafka.svg)](https://github.com/claudeseo/nest-kafka/blob/main/license)
+
 ## Description
 
 Simple Integrate Kafka.js With Nest.js
