@@ -8,7 +8,7 @@
 [![npm-version](https://img.shields.io/npm/v/@claudeseo/nest-kafka.svg)](https://www.npmjs.com/package/@claudeseo/nest-kafka)
 [![Build Status](https://github.com/ClaudeSeo/nest-kafka/actions/workflows/release.yml/badge.svg)](https://github.com/ClaudeSeo/nest-kafka/actions/workflows/release.yml)
 [![Release date](https://img.shields.io/github/release-date/claudeseo/nest-kafka)](https://github.com/claudeseo/nest-kafka/releases)
-[![npm license](https://img.shields.io/npm/l/@claudeseo/nest-kafka.svg)](https://github.com/claudeseo/nest-kafka/blob/main/license)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
 
